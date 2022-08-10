@@ -1,4 +1,4 @@
-.TH man "6 April 2021" "simple_shell man page"
+.TH man "11 August 2022" "simple_shell man page"
 
 .SH NAME
 simple_shell - takes command from user input into prompt 

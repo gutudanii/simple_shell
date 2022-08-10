@@ -17,7 +17,7 @@ char *_getenv(char *name)
 
 		if (environ[i][j] == '=')
 		{
-			if (var_len == j++)
+		      if (var_len == j++)
 			{
 				for (; environ[i][j]; j++)
 				{};
@@ -30,7 +30,7 @@ char *_getenv(char *name)
 					value[j] = environ[i][var_len];
 
 				value[j] = '\0';
-				return (value);
+				 return (value);
 			}
 		}
 	}
@@ -38,7 +38,7 @@ char *_getenv(char *name)
 	return (NULL);
 }
 /**
- * cmd_path - concat the argument with PATH dirs
+ * cmd_path- concat the argument with PATH dirs
  * @argv: argument to concat
  * Return: absoulte path of command - NULL if don't exits
  */

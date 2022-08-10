@@ -35,7 +35,7 @@ int check_word(char **argv)
 /**
  * exit_built_in - Handler of exit built-in command
  * Description: exit stop the shell, exit(status)
- * stops and 'return' status
+ * stops and 'return' status.
  * @p: struct with all vars inside
  * Return: 1 if no alpha chars
  */

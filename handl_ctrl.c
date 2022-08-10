@@ -12,7 +12,7 @@ void signal_exit(int a)
 
 /**
  * _calloc - allocates memory for an array
- * @nmemb: # elements
+ * @nmemb: # element
  * @size: size of elements
  * Return: void, just allocate memory
  */
