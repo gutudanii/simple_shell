@@ -20,7 +20,7 @@ extern char **environ;
  * @buff: used with getline()
  * @cmd: command = path + argv[0]
  * @name: name of executable used in errors
- * @exit_value: int used for return
+ * @exit_value: int used for returns
  */
 typedef struct params
 {
