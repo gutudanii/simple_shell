@@ -3,7 +3,7 @@
  * _strcat - append src to dest
  * @dest: first string
  * @src: string to be appended
- * Return: final dest strings
+ * Return: final dest string
  */
 char *_strcat(char *dest, char *src)
 {
