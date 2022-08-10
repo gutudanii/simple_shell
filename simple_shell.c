@@ -34,7 +34,7 @@ int test(params *p)
  * main - our own UNIX cli
  * @ac: arguments cound
  * @av: argument array
- * Return: 0
+ * Return: 0s
  */
 int main(int __attribute__((unused)) ac, char **av)
 {
