@@ -30,7 +30,7 @@ char *_getenv(char *name)
 					value[j] = environ[i][var_len];
 
 				value[j] = '\0';
-				return (value);
+				 return (value);
 			}
 		}
 	}
